@@ -1,3 +1,4 @@
+version: '3.8'
 services:
   www:
     image: php:apache
@@ -6,6 +7,8 @@ services:
     ports:
       - "80:80"
       - "443:443"
+    depends_on:
+      - db
 
   db:
     image: mysql:latest
