@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   www:
-    image: php:apache
+    image: sameeksha1384/php:apache:latest
     volumes:
       - "./:/var/www/html"
     ports:
@@ -21,7 +21,7 @@ services:
       - "./db:/docker-entrypoint-initdb.d"  # sync persistent SQL files with container
 
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin
+    image: sameeksha1384/php:apache:latest
     ports:
       - "8001:80"
     environment:
