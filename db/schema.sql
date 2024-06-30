@@ -84,7 +84,8 @@ INSERT INTO `students` (`id`, `name`, `dob`, `email`) VALUES
 (1, 'Sameeksha Tantak', '2014-08-13', 'abc@gmail.com'),
 (2, 'sanjana', '2024-06-06', 'bcd@gmail.com'),
 (3, 'Devanshi', '2014-06-12', 'def@gmail.com'),
-(4, 'Swarali', '2024-06-07', 'efg@gmail.com');
+(4, 'Swarali', '2024-06-07', 'efg@gmail.com'),
+(5, 'krithi', '2024-06-10', 'fgh@gmail.com');
 
 --
 -- Indexes for dumped tables
